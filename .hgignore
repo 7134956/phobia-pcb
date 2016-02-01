@@ -1,0 +1,9 @@
+syntax: glob
+*.bak
+*.kicad_pcb-bak
+*.pdf
+*.csv
+*.dcm
+*.xml
+*.net
+gerber
