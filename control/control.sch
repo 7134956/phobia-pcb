@@ -7,8 +7,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Phobia Control Board"
-Date "2016-01-30"
-Rev "1"
+Date "2016-02-02"
+Rev "2"
 Comp "Roman Belov"
 Comment1 ""
 Comment2 ""
