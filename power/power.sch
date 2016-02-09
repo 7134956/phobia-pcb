@@ -1277,10 +1277,8 @@ Wire Wire Line
 	2200 7000 1800 7000
 Wire Wire Line
 	1800 7100 2950 7100
-Text GLabel 2850 8200 2    60   Input ~ 0
+Text GLabel 2200 8300 2    60   Input ~ 0
 SENSOR_NTC
-Wire Wire Line
-	2850 8200 1800 8200
 Text GLabel 7700 8600 2    60   Input ~ 0
 SENSOR_NTC
 $Comp
@@ -1356,8 +1354,5 @@ Wire Wire Line
 	7450 9000 7450 9300
 Connection ~ 7450 9100
 Wire Wire Line
-	1800 8300 1900 8300
-Wire Wire Line
-	1900 8300 1900 8200
-Connection ~ 1900 8200
+	2200 8300 1800 8300
 $EndSCHEMATC
