@@ -1,5 +1,6 @@
 syntax: glob
 *.bak
+*.bck
 *.kicad_pcb-bak
 *.pdf
 *.csv
