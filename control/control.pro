@@ -1,4 +1,4 @@
-update=Tue 16 Feb 2016 07:34:11 PM MSK
+update=Tue 19 Apr 2016 08:17:56 PM MSK
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,3 +30,13 @@ LibDir=
 LibName1=/home/amaora/devel/pcb/lib/fake
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
