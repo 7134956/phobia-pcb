@@ -7,7 +7,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Phobia Power Board"
-Date "2016-03-31"
+Date "2016-09-19"
 Rev "2"
 Comp "Roman Belov"
 Comment1 ""

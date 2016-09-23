@@ -3,7 +3,7 @@
   (general
     (links 215)
     (no_connects 0)
-    (area 97.079999 60.249999 142.950001 99.770001)
+    (area 96.4311 52.395 155.955 99.770001)
     (thickness 1.6)
     (drawings 6)
     (tracks 722)
@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Phobia Control Board")
-    (date 2016-03-31)
+    (date 2016-09-21)
     (rev 2)
     (company "Roman Belov")
   )
@@ -46,7 +46,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
     (user_trace_width 0.889)
@@ -93,8 +93,8 @@
       (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
-      (plotvalue true)
+      (plotreference false)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
@@ -420,7 +420,7 @@
   )
 
   (module foot:SM0805 (layer F.Cu) (tedit 56ACA103) (tstamp 569BA271)
-    (at 104.775 78.105)
+    (at 104.948 77.932)
     (path /5686AF10)
     (attr smd)
     (fp_text reference C2 (at 0 0) (layer F.SilkS)
