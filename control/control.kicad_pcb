@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
     (links 215)
     (no_connects 0)
-    (area 96.4311 52.395 155.955 99.770001)
+    (area 97.079999 60.249999 142.950001 99.770001)
     (thickness 1.6)
     (drawings 6)
     (tracks 722)
@@ -486,7 +486,7 @@
     (fp_text reference C6 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 100nF (at 0 -1.397 180) (layer F.SilkS) hide
+    (fp_text value 10nF (at 0 -1.397 180) (layer F.SilkS) hide
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_line (start 0.8255 -0.4445) (end 0.8255 0.4445) (layer F.SilkS) (width 0.15))
@@ -526,7 +526,7 @@
     (fp_text reference C8 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 10nF (at 0 -1.397 270) (layer F.SilkS) hide
+    (fp_text value 100nF (at 0 -1.397 270) (layer F.SilkS) hide
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_line (start 0.8255 -0.4445) (end 0.8255 0.4445) (layer F.SilkS) (width 0.15))
@@ -3119,7 +3119,7 @@
       (pts
         (xy 135.89 85.09) (xy 135.89 93.345) (xy 142.24 93.345) (xy 142.24 99.06) (xy 104.14 99.06)
         (xy 104.14 95.25) (xy 106.68 92.71) (xy 129.54 92.71) (xy 130.81 91.44) (xy 130.81 88.9)
-        (xy 128.905 86.995) (xy 128.905 83.058) (xy 133.858 83.058) (xy 135.89 85.09)
+        (xy 128.905 86.995) (xy 128.905 83.058) (xy 133.858 83.058)
       )
     )
     (filled_polygon
@@ -4742,7 +4742,7 @@
       (pts
         (xy 135.89 85.09) (xy 135.89 93.345) (xy 142.24 93.345) (xy 142.24 99.06) (xy 104.14 99.06)
         (xy 104.14 95.25) (xy 106.68 92.71) (xy 129.54 92.71) (xy 130.81 91.44) (xy 130.81 88.9)
-        (xy 128.905 86.995) (xy 128.905 83.058) (xy 133.858 83.058) (xy 135.89 85.09)
+        (xy 128.905 86.995) (xy 128.905 83.058) (xy 133.858 83.058)
       )
     )
     (filled_polygon
