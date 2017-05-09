@@ -1,4 +1,4 @@
-update=Mon 19 Sep 2016 08:21:13 PM MSK
+update=Tue 09 May 2017 04:51:40 PM MSK
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,13 +23,14 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=/home/amaora/devel/pcb/lib/fake
-[general]
-version=1
+LibName1=power-rescue
+LibName2=/home/amaora/devel/pcb/lib/fake
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
