@@ -1,4 +1,4 @@
-update=Tue 19 Apr 2016 08:17:56 PM MSK
+update=Sat 07 Oct 2017 08:17:11 PM MSK
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,20 +23,10 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
 LibName1=/home/amaora/devel/pcb/lib/fake
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
