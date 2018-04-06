@@ -7,7 +7,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "Phobia Motor Controller"
-Date "2018-04-01"
+Date "2018-04-03"
 Rev "4"
 Comp "Roman Belov"
 Comment1 ""
@@ -107,7 +107,7 @@ $Comp
 L C C20
 U 1 1 59D9345F
 P 4750 2100
-F 0 "C20" V 4800 2250 60  0000 C CNN
+F 0 "C20" V 4850 2250 60  0000 C CNN
 F 1 "220pF" V 4450 2200 60  0000 C CNN
 F 2 "foot:SM0603" H 4750 2100 60  0001 C CNN
 F 3 "" H 4750 2100 60  0000 C CNN
@@ -2228,7 +2228,7 @@ F 3 "" H 8500 10250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9150 13700 0    60   Input ~ 0
-PWM_INA
+I2C_SCL
 $Comp
 L +5V #PWR061
 U 1 1 5A01A7FE
@@ -3475,7 +3475,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 10800 12000 11000
 Text GLabel 8900 9450 2    60   Input ~ 0
-PWM_INA
+I2C_SCL
 $Comp
 L R R40
 U 1 1 5A42B068
@@ -3611,7 +3611,7 @@ F 3 "" H 7300 9550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9000 9750 2    60   Input ~ 0
-PWM_INB
+I2C_SDA
 Wire Wire Line
 	6550 9550 7150 9550
 $Comp
@@ -3626,7 +3626,7 @@ F 3 "" H 10700 13400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9700 13800 0    60   Input ~ 0
-PWM_INB
+I2C_SDA
 Wire Wire Line
 	10200 13800 9700 13800
 $Comp
