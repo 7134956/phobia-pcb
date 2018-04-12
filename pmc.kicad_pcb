@@ -3,10 +3,10 @@
   (general
     (links 382)
     (no_connects 1)
-    (area 62.789999 67.234999 109.930001 112.470001)
+    (area 62.360327 47.349999 120.88 112.951997)
     (thickness 2)
-    (drawings 7)
-    (tracks 1543)
+    (drawings 39)
+    (tracks 1545)
     (zones 0)
     (modules 143)
     (nets 91)
@@ -15,15 +15,15 @@
   (page A4)
   (title_block
     (title "Phobia Motor Controller")
-    (date 2018-04-03)
+    (date 2018-04-12)
     (rev 4)
     (company "Roman Belov")
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (1 In1.Cu signal hide)
-    (2 In2.Cu signal hide)
+    (0 F.Cu jumper)
+    (1 In1.Cu signal)
+    (2 In2.Cu signal)
     (3 In3.Cu signal)
     (4 In4.Cu signal)
     (31 B.Cu signal)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
     (user_trace_width 0.889)
@@ -69,7 +69,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010c0_8000001f)
+      (layerselection 0x010f0_8000001f)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -87,7 +87,7 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
       (drillshape 0)
@@ -286,10 +286,10 @@
     (add_net VOLTAGE_U)
   )
 
-  (module foot:PAD2 (layer F.Cu) (tedit 59FA0FD9) (tstamp 59EB4B80)
+  (module foot:PAD2 (layer F.Cu) (tedit 5ACE299E) (tstamp 59EB4B80)
     (at 67.31 109.855)
     (path /59DAD92D)
-    (fp_text reference P6 (at 0 0) (layer F.SilkS)
+    (fp_text reference P6 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)))
     )
     (fp_text value CONN4 (at 0 -1.778) (layer F.SilkS) hide
@@ -299,10 +299,10 @@
       (net 74 TERMINAL_A))
   )
 
-  (module foot:PAD2 (layer F.Cu) (tedit 59FA0FDF) (tstamp 59EB4B85)
+  (module foot:PAD2 (layer F.Cu) (tedit 5ACE299B) (tstamp 59EB4B85)
     (at 82.55 109.855)
     (path /59DBFC13)
-    (fp_text reference P7 (at 0 0) (layer F.SilkS)
+    (fp_text reference P7 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)))
     )
     (fp_text value CONN4 (at 0 -1.778) (layer F.SilkS) hide
@@ -312,10 +312,10 @@
       (net 75 TERMINAL_B))
   )
 
-  (module foot:PAD2 (layer F.Cu) (tedit 59FA0FE5) (tstamp 59EB4B8A)
+  (module foot:PAD2 (layer F.Cu) (tedit 5ACE29A3) (tstamp 59EB4B8A)
     (at 97.79 109.855)
     (path /59DD284D)
-    (fp_text reference P8 (at 0 0) (layer F.SilkS)
+    (fp_text reference P8 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)))
     )
     (fp_text value CONN4 (at 0 -1.778) (layer F.SilkS) hide
@@ -325,10 +325,10 @@
       (net 72 TERMINAL_C))
   )
 
-  (module foot:PAD2 (layer F.Cu) (tedit 59FA0EF5) (tstamp 59EB4B8F)
+  (module foot:PAD2 (layer F.Cu) (tedit 5ACE2A4C) (tstamp 59EB4B8F)
     (at 78.105 69.85)
     (path /59DED2AD)
-    (fp_text reference P9 (at 0 0) (layer F.SilkS)
+    (fp_text reference P9 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)))
     )
     (fp_text value CONN4 (at 0 -1.778) (layer F.SilkS) hide
@@ -338,10 +338,10 @@
       (net 1 +36V))
   )
 
-  (module foot:PAD2 (layer F.Cu) (tedit 59FA0F19) (tstamp 59EB4B94)
+  (module foot:PAD2 (layer F.Cu) (tedit 5ACE2DE8) (tstamp 59EB4B94)
     (at 93.345 69.85)
     (path /59DED495)
-    (fp_text reference P10 (at 0 0) (layer F.SilkS)
+    (fp_text reference P10 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)))
     )
     (fp_text value CONN4 (at 0 -1.778) (layer F.SilkS) hide
@@ -395,7 +395,7 @@
     (at 93.345 96.52 270)
     (path /59D9347B)
     (attr smd)
-    (fp_text reference Z1 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference Z1 (at -2.54 0 360) (layer B.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.12446)) (justify mirror))
     )
     (fp_text value 12MHz (at 0 -2.286 270) (layer B.SilkS) hide
@@ -481,7 +481,7 @@
       (net 13 "Net-(C50-Pad1)"))
   )
 
-  (module foot:MSOP8 (layer B.Cu) (tedit 56B7601A) (tstamp 59EB4D1B)
+  (module foot:MSOP8 (layer B.Cu) (tedit 5ACE2552) (tstamp 59EB4D1B)
     (at 95.25 102.87 180)
     (path /59F72F67)
     (solder_mask_margin 0.05)
@@ -515,7 +515,7 @@
       (net 4 +3.3VREF))
   )
 
-  (module foot:MSOP8 (layer B.Cu) (tedit 56B7601A) (tstamp 59EB4D0F)
+  (module foot:MSOP8 (layer B.Cu) (tedit 5ACE2556) (tstamp 59EB4D0F)
     (at 83.82 105.41 180)
     (path /59D934C0)
     (solder_mask_margin 0.05)
@@ -550,10 +550,10 @@
   )
 
   (module foot:SM0805 (layer F.Cu) (tedit 536E6687) (tstamp 59EB4CE5)
-    (at 105.41 99.695)
+    (at 104.013 100.965)
     (path /59DA155D)
     (attr smd)
-    (fp_text reference R39 (at 0 0) (layer F.SilkS)
+    (fp_text reference R39 (at 0 -1.27) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "10K NTC" (at 0 -1.397) (layer F.SilkS) hide
@@ -573,7 +573,7 @@
     (at 105.41 105.41 180)
     (path /59DA155C)
     (attr smd)
-    (fp_text reference R38 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference R38 (at -1.905 0 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "10K 1%" (at 0 -1.397 180) (layer F.SilkS) hide
@@ -593,7 +593,7 @@
     (at 106.045 78.105)
     (path /59D934AA)
     (attr smd)
-    (fp_text reference R35 (at 0 0) (layer B.SilkS)
+    (fp_text reference R35 (at 0 -1.905 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 120 (at 0 2.032) (layer B.SilkS) hide
@@ -613,7 +613,7 @@
     (at 89.3445 107.95 180)
     (path /59E68FCB)
     (attr smd)
-    (fp_text reference R34 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference R34 (at 2.3495 0 270) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "10K 1%" (at 0 1.397 180) (layer B.SilkS) hide
@@ -633,7 +633,7 @@
     (at 103.505 107.95 270)
     (path /59F72F73)
     (attr smd)
-    (fp_text reference R33 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference R33 (at 0 1.27 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "27K 1%" (at 0 -1.397 270) (layer F.SilkS) hide
@@ -653,7 +653,7 @@
     (at 88.265 107.95 270)
     (path /59F72F48)
     (attr smd)
-    (fp_text reference R32 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference R32 (at 0 1.27 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "27K 1%" (at 0 -1.397 270) (layer F.SilkS) hide
@@ -673,7 +673,7 @@
     (at 73.025 107.95 270)
     (path /59D934C2)
     (attr smd)
-    (fp_text reference R31 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference R31 (at 0 1.27 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "27K 1%" (at 0 -1.397 270) (layer F.SilkS) hide
@@ -693,7 +693,7 @@
     (at 88.9 109.855 180)
     (path /59D9349E)
     (attr smd)
-    (fp_text reference R30 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference R30 (at 0 -1.27 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "27K 1%" (at 0 1.397 180) (layer B.SilkS) hide
@@ -713,7 +713,7 @@
     (at 104.3305 110.49)
     (path /59F72F79)
     (attr smd)
-    (fp_text reference R29 (at 0 0) (layer F.SilkS)
+    (fp_text reference R29 (at 2.3495 0) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "470K 1%" (at 0 -1.397) (layer F.SilkS) hide
@@ -733,7 +733,7 @@
     (at 89.0905 110.49)
     (path /59F72F4E)
     (attr smd)
-    (fp_text reference R28 (at 0 0) (layer F.SilkS)
+    (fp_text reference R28 (at 2.3495 0) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "470K 1%" (at 0 -1.397) (layer F.SilkS) hide
@@ -753,7 +753,7 @@
     (at 73.8505 110.49)
     (path /59D934C3)
     (attr smd)
-    (fp_text reference R27 (at 0 0) (layer F.SilkS)
+    (fp_text reference R27 (at 2.3495 0) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "470K 1%" (at 0 -1.397) (layer F.SilkS) hide
@@ -773,7 +773,7 @@
     (at 82.55 109.855)
     (path /59D9349F)
     (attr smd)
-    (fp_text reference R26 (at 0 0) (layer B.SilkS)
+    (fp_text reference R26 (at 0 1.27) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "470K 1%" (at 0 1.397) (layer B.SilkS) hide
@@ -793,7 +793,7 @@
     (at 105.41 107.315 270)
     (path /59E86D3A)
     (attr smd)
-    (fp_text reference R25 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference R25 (at -1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 270) (layer B.SilkS) hide
@@ -813,7 +813,7 @@
     (at 101.6 107.315 270)
     (path /59E86B78)
     (attr smd)
-    (fp_text reference R24 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference R24 (at -1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 270) (layer B.SilkS) hide
@@ -833,7 +833,7 @@
     (at 97.79 107.315 270)
     (path /59E865A4)
     (attr smd)
-    (fp_text reference R23 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference R23 (at -1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 270) (layer B.SilkS) hide
@@ -853,7 +853,7 @@
     (at 107.95 107.315 90)
     (path /59E8058B)
     (attr smd)
-    (fp_text reference R22 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R22 (at 1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -873,7 +873,7 @@
     (at 103.505 107.315 90)
     (path /59E803E4)
     (attr smd)
-    (fp_text reference R21 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R21 (at 2.54 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -893,7 +893,7 @@
     (at 99.695 107.315 90)
     (path /59D934CA)
     (attr smd)
-    (fp_text reference R20 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R20 (at 2.54 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -913,7 +913,7 @@
     (at 92.075 89.535 270)
     (path /59D9349A)
     (attr smd)
-    (fp_text reference R19 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference R19 (at 1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 270) (layer B.SilkS) hide
@@ -933,7 +933,7 @@
     (at 67.945 97.79)
     (path /59EA86E5)
     (attr smd)
-    (fp_text reference R18 (at 0 0) (layer B.SilkS)
+    (fp_text reference R18 (at 1.905 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397) (layer B.SilkS) hide
@@ -953,7 +953,7 @@
     (at 67.945 92.71)
     (path /59E99E20)
     (attr smd)
-    (fp_text reference R17 (at 0 0) (layer B.SilkS)
+    (fp_text reference R17 (at 1.905 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397) (layer B.SilkS) hide
@@ -973,7 +973,7 @@
     (at 101.6 95.885 90)
     (path /59D934B0)
     (attr smd)
-    (fp_text reference R16 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R16 (at -1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 90) (layer B.SilkS) hide
@@ -993,7 +993,7 @@
     (at 67.945 95.25)
     (path /59EA851D)
     (attr smd)
-    (fp_text reference R15 (at 0 0) (layer B.SilkS)
+    (fp_text reference R15 (at 1.905 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397) (layer B.SilkS) hide
@@ -1013,7 +1013,7 @@
     (at 67.945 90.17)
     (path /59E99C42)
     (attr smd)
-    (fp_text reference R14 (at 0 0) (layer B.SilkS)
+    (fp_text reference R14 (at 1.905 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397) (layer B.SilkS) hide
@@ -1033,7 +1033,7 @@
     (at 72.39 81.28 180)
     (path /59D934AF)
     (attr smd)
-    (fp_text reference R13 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference R13 (at 0 -1.27 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 180) (layer B.SilkS) hide
@@ -1053,7 +1053,7 @@
     (at 72.39 79.248 180)
     (path /59D9346E)
     (attr smd)
-    (fp_text reference R12 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference R12 (at -2.54 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "11K 1%" (at 0 1.397 180) (layer B.SilkS) hide
@@ -1069,7 +1069,7 @@
       (net 7 "Net-(C23-Pad2)"))
   )
 
-  (module foot:SM0603 (layer B.Cu) (tedit 536E65E5) (tstamp 59EB4C3D)
+  (module foot:SM0603 (layer B.Cu) (tedit 5ACE2907) (tstamp 59EB4C3D)
     (at 72.39 76.2)
     (path /59D93470)
     (attr smd)
@@ -1093,7 +1093,7 @@
     (at 92.075 83.82 180)
     (path /59D93460)
     (attr smd)
-    (fp_text reference R10 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference R10 (at -2.286 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "27K 1%" (at 0 1.397 180) (layer B.SilkS) hide
@@ -1113,7 +1113,7 @@
     (at 88.265 83.82 180)
     (path /59D9345A)
     (attr smd)
-    (fp_text reference R9 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference R9 (at 1.905 0 450) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100K 1%" (at 0 1.397 180) (layer B.SilkS) hide
@@ -1133,7 +1133,7 @@
     (at 75.565 73.4695 270)
     (path /59D934D7)
     (attr smd)
-    (fp_text reference R8 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference R8 (at 0 -1.27 450) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 47K (at 0 1.397 270) (layer B.SilkS) hide
@@ -1153,7 +1153,7 @@
     (at 103.505 97.155 90)
     (path /59D934B7)
     (attr smd)
-    (fp_text reference R7 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R7 (at -1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 90) (layer B.SilkS) hide
@@ -1173,7 +1173,7 @@
     (at 90.805 96.52 90)
     (path /59D9347E)
     (attr smd)
-    (fp_text reference R6 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R6 (at -1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -1193,7 +1193,7 @@
     (at 99.8855 81.915 180)
     (path /59D934A2)
     (attr smd)
-    (fp_text reference R5 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference R5 (at -2.3495 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 47K (at 0 1.397 180) (layer B.SilkS) hide
@@ -1213,7 +1213,7 @@
     (at 65.405 105.41 90)
     (path /59FB8088)
     (attr smd)
-    (fp_text reference R4 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R4 (at 1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -1233,7 +1233,7 @@
     (at 67.31 105.41 90)
     (path /59FB7EA4)
     (attr smd)
-    (fp_text reference R3 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R3 (at 1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -1253,7 +1253,7 @@
     (at 69.215 105.41 90)
     (path /59FB54A7)
     (attr smd)
-    (fp_text reference R2 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R2 (at 1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -1273,7 +1273,7 @@
     (at 70.485 101.6 90)
     (path /59FB0F81)
     (attr smd)
-    (fp_text reference R1 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R1 (at 0 -1.27 270) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -1289,14 +1289,14 @@
       (net 23 "Net-(M3-Pad20)"))
   )
 
-  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 59D8A817) (tstamp 59EB4BEB)
+  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 5ACE29F8) (tstamp 59EB4BEB)
     (at 101.1 81.915)
     (path /59DF7936)
     (attr smd)
-    (fp_text reference Q6 (at -0.135 0) (layer F.SilkS)
+    (fp_text reference Q6 (at -0.135 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value IPT007N06N (at 0 -6.985) (layer F.Fab)
+    (fp_text value IPT007N06N (at 0 -6.985) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.715 5.08) (end -5.715 -5.08) (layer F.SilkS) (width 0.15))
@@ -1329,14 +1329,14 @@
       (net 72 TERMINAL_C))
   )
 
-  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 59D8A817) (tstamp 59EB4BDB)
+  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 5ACE29F3) (tstamp 59EB4BDB)
     (at 85.86 92.71 180)
     (path /59DF7775)
     (attr smd)
-    (fp_text reference Q5 (at 0.135 0 180) (layer F.SilkS)
+    (fp_text reference Q5 (at 0.135 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value IPT007N06N (at 0 -6.985 180) (layer F.Fab)
+    (fp_text value IPT007N06N (at 0 -6.985 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.715 5.08) (end -5.715 -5.08) (layer F.SilkS) (width 0.15))
@@ -1369,14 +1369,14 @@
       (net 62 GND))
   )
 
-  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 59D8A817) (tstamp 59EB4BCB)
+  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 5ACE29F1) (tstamp 59EB4BCB)
     (at 85.86 81.915)
     (path /59DF7597)
     (attr smd)
-    (fp_text reference Q4 (at -0.135 0) (layer F.SilkS)
+    (fp_text reference Q4 (at -0.135 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value IPT007N06N (at 0 -6.985) (layer F.Fab)
+    (fp_text value IPT007N06N (at 0 -6.985) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.715 5.08) (end -5.715 -5.08) (layer F.SilkS) (width 0.15))
@@ -1409,14 +1409,14 @@
       (net 15 "Net-(C52-Pad1)"))
   )
 
-  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 59D8A817) (tstamp 59EB4BBB)
+  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 5ACE29ED) (tstamp 59EB4BBB)
     (at 70.62 92.71 180)
     (path /59DC48E0)
     (attr smd)
-    (fp_text reference Q3 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference Q3 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value IPT007N06N (at 0 -6.985 180) (layer F.Fab)
+    (fp_text value IPT007N06N (at 0 -6.985 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.715 5.08) (end -5.715 -5.08) (layer F.SilkS) (width 0.15))
@@ -1449,14 +1449,14 @@
       (net 62 GND))
   )
 
-  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 59D8A817) (tstamp 59EB4BAB)
+  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 5ACE29EA) (tstamp 59EB4BAB)
     (at 70.62 81.915)
     (path /59DC299C)
     (attr smd)
-    (fp_text reference Q2 (at -0.135 0) (layer F.SilkS)
+    (fp_text reference Q2 (at -0.135 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value IPT007N06N (at 0 -6.985) (layer F.Fab)
+    (fp_text value IPT007N06N (at 0 -6.985) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.715 5.08) (end -5.715 -5.08) (layer F.SilkS) (width 0.15))
@@ -1489,12 +1489,12 @@
       (net 13 "Net-(C50-Pad1)"))
   )
 
-  (module foot:SOT23 (layer B.Cu) (tedit 59FD867E) (tstamp 59EB4B9B)
+  (module foot:SOT23 (layer B.Cu) (tedit 5ACE290E) (tstamp 59EB4B9B)
     (at 72.39 73.025 180)
     (tags SOT23)
     (path /59D934D6)
     (fp_text reference Q1 (at 0 0 180) (layer B.SilkS)
-      (effects (font (size 0.50038 0.50038) (thickness 0.0762)) (justify mirror))
+      (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value BC857C (at 0.0635 0 180) (layer B.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.0762)) (justify mirror))
@@ -1511,11 +1511,11 @@
       (net 60 "Net-(Q1-Pad1)"))
   )
 
-  (module foot:SON8 (layer F.Cu) (tedit 59FD7A0D) (tstamp 59EB4B52)
+  (module foot:SON8 (layer F.Cu) (tedit 5ACE2A6F) (tstamp 59EB4B52)
     (at 103.505 74.295 270)
     (path /59DA156E)
     (attr smd)
-    (fp_text reference M9 (at 0 0 360) (layer F.SilkS)
+    (fp_text reference M9 (at 0 0 360) (layer F.SilkS) hide
       (effects (font (size 0.70104 0.70104) (thickness 0.12446)))
     )
     (fp_text value UCC27211A (at 0 0 360) (layer F.SilkS) hide
@@ -1545,11 +1545,11 @@
       (net 62 GND))
   )
 
-  (module foot:SON8 (layer F.Cu) (tedit 59FD79FA) (tstamp 59EB4B45)
+  (module foot:SON8 (layer F.Cu) (tedit 5ACE2A72) (tstamp 59EB4B45)
     (at 88.265 74.295 270)
     (path /59DA156D)
     (attr smd)
-    (fp_text reference M8 (at 0 0 360) (layer F.SilkS)
+    (fp_text reference M8 (at 0 0 360) (layer F.SilkS) hide
       (effects (font (size 0.70104 0.70104) (thickness 0.12446)))
     )
     (fp_text value UCC27211A (at 0 3.3 270) (layer F.SilkS) hide
@@ -1579,11 +1579,11 @@
       (net 62 GND))
   )
 
-  (module foot:SON8 (layer F.Cu) (tedit 59FD79F1) (tstamp 59EB4B38)
+  (module foot:SON8 (layer F.Cu) (tedit 5ACE2A75) (tstamp 59EB4B38)
     (at 73.025 74.295 270)
     (path /59DA156C)
     (attr smd)
-    (fp_text reference M7 (at 0 0 360) (layer F.SilkS)
+    (fp_text reference M7 (at 0 0 360) (layer F.SilkS) hide
       (effects (font (size 0.70104 0.70104) (thickness 0.12446)))
     )
     (fp_text value UCC27211A (at 0.635 -0.635 270) (layer F.SilkS) hide
@@ -1613,14 +1613,14 @@
       (net 62 GND))
   )
 
-  (module foot:SO8 (layer B.Cu) (tedit 5686DDD5) (tstamp 59EB4B2B)
+  (module foot:SO8 (layer B.Cu) (tedit 5ACE258C) (tstamp 59EB4B2B)
     (at 106.045 83.82 180)
     (path /59D934A6)
     (attr smd)
-    (fp_text reference M6 (at 0 0.635 180) (layer B.SilkS)
+    (fp_text reference M6 (at 0 0 180) (layer B.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.12446)) (justify mirror))
     )
-    (fp_text value SN65HVD233 (at 0 -0.762 180) (layer B.SilkS)
+    (fp_text value SN65HVD233 (at 0 -0.762 180) (layer B.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.12446)) (justify mirror))
     )
     (fp_line (start -2.54 2.032) (end -2.54 -2.032) (layer B.SilkS) (width 0.15))
@@ -1671,12 +1671,12 @@
       (net 9 "Net-(C33-Pad1)"))
   )
 
-  (module foot:SOT23 (layer B.Cu) (tedit 59FD8021) (tstamp 59EB4B16)
+  (module foot:SOT23 (layer B.Cu) (tedit 5ACE255C) (tstamp 59EB4B16)
     (at 76.2 106.045 90)
     (tags SOT23)
     (path /59D934DA)
-    (fp_text reference M4 (at 0 0 90) (layer B.SilkS)
-      (effects (font (size 0.50038 0.50038) (thickness 0.0762)) (justify mirror))
+    (fp_text reference M4 (at 0 0 180) (layer B.SilkS)
+      (effects (font (size 0.635 0.635) (thickness 0.1524)) (justify mirror))
     )
     (fp_text value REF3033 (at 0.0635 0 90) (layer B.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.0762)) (justify mirror))
@@ -1846,12 +1846,12 @@
       (net 21 12V_EN))
   )
 
-  (module foot:HTSSOP16 (layer B.Cu) (tedit 59FDB4EB) (tstamp 59EB4AC2)
+  (module foot:HTSSOP16 (layer B.Cu) (tedit 5ACE2B9F) (tstamp 59EB4AC2)
     (at 93.98 80.01 270)
     (path /59D93458)
     (solder_mask_margin 0.05)
     (attr smd)
-    (fp_text reference M1 (at 0 0.275 270) (layer B.SilkS)
+    (fp_text reference M1 (at 0 0.275 360) (layer B.SilkS) hide
       (effects (font (size 0.70104 0.70104) (thickness 0.12446)) (justify mirror))
     )
     (fp_text value LM46001 (at 0 -1.651 270) (layer B.SilkS) hide
@@ -1946,7 +1946,7 @@
     (at 93.98 89.535 270)
     (path /59D9347A)
     (attr smd)
-    (fp_text reference D2 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference D2 (at 1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value LED (at 0 1.397 270) (layer B.SilkS) hide
@@ -1966,7 +1966,7 @@
     (at 65.405 73.025 270)
     (path /59D93467)
     (attr smd)
-    (fp_text reference D1 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference D1 (at 0 0 360) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value NSR0320 (at 0 1.524 270) (layer B.SilkS) hide
@@ -1986,7 +1986,7 @@
     (at 105.41 103.505)
     (path /59DA155F)
     (attr smd)
-    (fp_text reference C66 (at 0 0) (layer F.SilkS)
+    (fp_text reference C66 (at -1.905 0 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "10nF 25v" (at 0 -1.397) (layer F.SilkS) hide
@@ -2006,7 +2006,7 @@
     (at 91.44 102.87 90)
     (path /59DA151C)
     (attr smd)
-    (fp_text reference C65 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C65 (at 0 1.27 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "100nF 25v" (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2026,7 +2026,7 @@
     (at 76.2 102.87 90)
     (path /59DA1518)
     (attr smd)
-    (fp_text reference C64 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C64 (at 0 1.27 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "100nF 25v" (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2066,6 +2066,7 @@
   (module foot:CE135L (layer F.Cu) (tedit 56FD4EF1) (tstamp 59EB4A65)
     (at 86.36 69.215)
     (path /59DA1515)
+    (attr virtual)
     (fp_text reference C58 (at 0 -10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
@@ -2084,7 +2085,7 @@
       (net 62 GND))
   )
 
-  (module foot:CE135L (layer B.Cu) (tedit 56FD4EF1) (tstamp 59EB4A59)
+  (module foot:CE135L (layer B.Cu) (tedit 5ACE2290) (tstamp 59EB4A59)
     (at 71.12 69.215 180)
     (path /59DA1516)
     (fp_text reference C56 (at 0 10.16 180) (layer B.SilkS)
@@ -2129,7 +2130,7 @@
     (at 97.79 74.803 90)
     (path /59DA1545)
     (attr smd)
-    (fp_text reference C54 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C54 (at 0 -1.27 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "1uF 25v" (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2169,7 +2170,7 @@
     (at 82.55 74.803 90)
     (path /59DA1541)
     (attr smd)
-    (fp_text reference C52 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C52 (at 0 -1.27 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "1uF 25v" (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2189,7 +2190,7 @@
     (at 69.215 74.7395 90)
     (path /59DA1542)
     (attr smd)
-    (fp_text reference C51 (at -0.1905 0 90) (layer F.SilkS)
+    (fp_text reference C51 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "100nF 25v" (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2209,7 +2210,7 @@
     (at 67.31 74.803 90)
     (path /59DA1543)
     (attr smd)
-    (fp_text reference C50 (at -0.127 0 90) (layer F.SilkS)
+    (fp_text reference C50 (at -0.127 -1.27 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "1uF 25v" (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2229,7 +2230,7 @@
     (at 99.06 71.755)
     (path /59DA1525)
     (attr smd)
-    (fp_text reference C49 (at 0 0) (layer F.SilkS)
+    (fp_text reference C49 (at -2.54 0 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "1uF 25v" (at 0 -1.397) (layer F.SilkS) hide
@@ -2249,7 +2250,7 @@
     (at 103.505 71.12 180)
     (path /59DA1519)
     (attr smd)
-    (fp_text reference C48 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C48 (at 1.905 0 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "100nF 25v" (at 0 -1.397 180) (layer F.SilkS) hide
@@ -2269,7 +2270,7 @@
     (at 83.82 71.755)
     (path /59DA1526)
     (attr smd)
-    (fp_text reference C47 (at 0 0) (layer F.SilkS)
+    (fp_text reference C47 (at -2.54 0 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "1uF 25v" (at 0 -1.397) (layer F.SilkS) hide
@@ -2289,7 +2290,7 @@
     (at 88.265 71.12 180)
     (path /59DA151A)
     (attr smd)
-    (fp_text reference C46 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C46 (at 1.905 0 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "100nF 25v" (at 0 -1.397 180) (layer F.SilkS) hide
@@ -2309,7 +2310,7 @@
     (at 68.58 71.755 180)
     (path /59DA1524)
     (attr smd)
-    (fp_text reference C45 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C45 (at 2.54 0 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "1uF 25v" (at 0 -1.397 180) (layer F.SilkS) hide
@@ -2325,11 +2326,11 @@
       (net 62 GND))
   )
 
-  (module foot:SM0603 (layer F.Cu) (tedit 536E65E5) (tstamp 59EB4A11)
+  (module foot:SM0603 (layer F.Cu) (tedit 5ACF95D8) (tstamp 59EB4A11)
     (at 73.025 71.12 180)
     (path /59DA1517)
     (attr smd)
-    (fp_text reference C44 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference C44 (at 1.905 0 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "100nF 25v" (at 0 -1.397 180) (layer F.SilkS) hide
@@ -2349,7 +2350,7 @@
     (at 95.25 105.41)
     (path /59D934E4)
     (attr smd)
-    (fp_text reference C43 (at 0 0) (layer B.SilkS)
+    (fp_text reference C43 (at 0 1.27) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -2369,7 +2370,7 @@
     (at 102.235 85.725 270)
     (path /59D934AC)
     (attr smd)
-    (fp_text reference C42 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C42 (at 3.175 -1.27 450) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "1uF 25v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2389,7 +2390,7 @@
     (at 106.045 88.9 180)
     (path /59D934AB)
     (attr smd)
-    (fp_text reference C41 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference C41 (at 0 -1.27 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 180) (layer B.SilkS) hide
@@ -2405,11 +2406,11 @@
       (net 3 +3.3V))
   )
 
-  (module foot:SM0603 (layer B.Cu) (tedit 536E65E5) (tstamp 59EB49F9)
+  (module foot:SM0603 (layer B.Cu) (tedit 5ACE2563) (tstamp 59EB49F9)
     (at 83.82 107.95)
     (path /59D934E3)
     (attr smd)
-    (fp_text reference C40 (at 0 0) (layer B.SilkS)
+    (fp_text reference C40 (at -2.54 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -2429,7 +2430,7 @@
     (at 105.41 107.95 90)
     (path /59F72F7F)
     (attr smd)
-    (fp_text reference C38 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C38 (at 0 1.27 270) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value 120pF (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2449,7 +2450,7 @@
     (at 90.17 107.95 90)
     (path /59F72F54)
     (attr smd)
-    (fp_text reference C37 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C37 (at 0 1.27 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value 120pF (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2469,7 +2470,7 @@
     (at 74.93 107.95 90)
     (path /59D934C4)
     (attr smd)
-    (fp_text reference C36 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference C36 (at 0 1.27 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value 120pF (at 0 -1.397 90) (layer F.SilkS) hide
@@ -2489,7 +2490,7 @@
     (at 85.725 109.855)
     (path /59D934A0)
     (attr smd)
-    (fp_text reference C35 (at 0 0) (layer B.SilkS)
+    (fp_text reference C35 (at 0 1.27) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 120pF (at 0 1.397) (layer B.SilkS) hide
@@ -2509,7 +2510,7 @@
     (at 90.17 105.41 270)
     (path /59E68FDD)
     (attr smd)
-    (fp_text reference C39 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C39 (at -1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "10nF 25v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2529,7 +2530,7 @@
     (at 74.93 81.915 90)
     (path /59D93475)
     (attr smd)
-    (fp_text reference C34 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C34 (at -1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 90) (layer B.SilkS) hide
@@ -2549,7 +2550,7 @@
     (at 80.01 81.28 90)
     (path /59D93476)
     (attr smd)
-    (fp_text reference C33 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C33 (at -1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 90) (layer B.SilkS) hide
@@ -2569,7 +2570,7 @@
     (at 73.66 102.87 180)
     (path /59D934E7)
     (attr smd)
-    (fp_text reference C32 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference C32 (at -1.905 0 270) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 180) (layer B.SilkS) hide
@@ -2589,7 +2590,7 @@
     (at 73.025 106.045 90)
     (path /59D934E6)
     (attr smd)
-    (fp_text reference C31 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C31 (at 0 -1.27 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "4.7uF 16v" (at 0 1.397 90) (layer B.SilkS) hide
@@ -2609,7 +2610,7 @@
     (at 78.105 78.105)
     (path /59D93483)
     (attr smd)
-    (fp_text reference C30 (at 0 0) (layer B.SilkS)
+    (fp_text reference C30 (at 0 -1.27) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "4.7uF 16v" (at 0 1.397) (layer B.SilkS) hide
@@ -2629,7 +2630,7 @@
     (at 81.915 75.565 270)
     (path /59D93465)
     (attr smd)
-    (fp_text reference C28 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C28 (at 0 0 360) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "47uF 10v" (at 0 2.413 270) (layer B.SilkS) hide
@@ -2649,7 +2650,7 @@
     (at 85.725 75.565 270)
     (path /59D93464)
     (attr smd)
-    (fp_text reference C26 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C26 (at 0 0 360) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "47uF 10v" (at 0 2.413 270) (layer B.SilkS) hide
@@ -2669,7 +2670,7 @@
     (at 74.93 77.0255 270)
     (path /59D934D8)
     (attr smd)
-    (fp_text reference C25 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C25 (at -0.8255 -1.27 450) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2709,7 +2710,7 @@
     (at 89.535 88.9 270)
     (path /59D934BD)
     (attr smd)
-    (fp_text reference C21 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C21 (at 2.54 0 540) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "4.7uF 16v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2729,7 +2730,7 @@
     (at 88.265 81.915)
     (path /59D9345F)
     (attr smd)
-    (fp_text reference C20 (at 0 0) (layer B.SilkS)
+    (fp_text reference C20 (at -1.905 0 270) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 220pF (at 0 1.397) (layer B.SilkS) hide
@@ -2749,7 +2750,7 @@
     (at 97.155 83.82)
     (path /59D93462)
     (attr smd)
-    (fp_text reference C19 (at 0 0) (layer B.SilkS)
+    (fp_text reference C19 (at 3.175 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "1uF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -2769,7 +2770,7 @@
     (at 68.58 73.533 270)
     (path /59D93472)
     (attr smd)
-    (fp_text reference C18 (at 0.127 0 270) (layer B.SilkS)
+    (fp_text reference C18 (at 0.127 0 360) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "10uF 25v" (at 0 2.413 270) (layer B.SilkS) hide
@@ -2789,7 +2790,7 @@
     (at 105.41 97.155 270)
     (path /59D93479)
     (attr smd)
-    (fp_text reference C17 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C17 (at 1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "10nF 25v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2809,7 +2810,7 @@
     (at 88.9 96.3295 90)
     (path /59D93496)
     (attr smd)
-    (fp_text reference C27 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C27 (at -2.0955 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 90) (layer B.SilkS) hide
@@ -2829,7 +2830,7 @@
     (at 70.485 86.36)
     (path /59D93486)
     (attr smd)
-    (fp_text reference C15 (at 0 0) (layer B.SilkS)
+    (fp_text reference C15 (at 0 -1.27) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "4.7uF 16v" (at 0 1.397) (layer B.SilkS) hide
@@ -2849,7 +2850,7 @@
     (at 100.203 80.01)
     (path /59D93463)
     (attr smd)
-    (fp_text reference C14 (at 0 0) (layer B.SilkS)
+    (fp_text reference C14 (at 0.762 -1.27 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "4.7uF 16v" (at 0 1.397) (layer B.SilkS) hide
@@ -2865,11 +2866,11 @@
       (net 62 GND))
   )
 
-  (module foot:SM0805 (layer B.Cu) (tedit 536E6687) (tstamp 59EB4969)
+  (module foot:SM0805 (layer B.Cu) (tedit 5ACE25E8) (tstamp 59EB4969)
     (at 99.06 76.835 270)
     (path /59D9345E)
     (attr smd)
-    (fp_text reference C13 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C13 (at 0 -1.905 540) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "1uF 25v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2889,7 +2890,7 @@
     (at 84.455 83.82 90)
     (path /59D93489)
     (attr smd)
-    (fp_text reference C12 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C12 (at -0.635 -1.27 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 90) (layer B.SilkS) hide
@@ -2909,7 +2910,7 @@
     (at 87.63 85.725)
     (path /59D93495)
     (attr smd)
-    (fp_text reference C24 (at 0 0) (layer B.SilkS)
+    (fp_text reference C24 (at 1.905 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -2929,7 +2930,7 @@
     (at 73.66 99.695 270)
     (path /59D93485)
     (attr smd)
-    (fp_text reference C10 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C10 (at 0 1.27 450) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "4.7uF 16v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2949,7 +2950,7 @@
     (at 73.66 89.7255 270)
     (path /59D9348A)
     (attr smd)
-    (fp_text reference C9 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C9 (at -0.1905 1.27 450) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -2969,7 +2970,7 @@
     (at 96.7105 97.79 180)
     (path /59D9347D)
     (attr smd)
-    (fp_text reference C8 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference C8 (at 0 1.27 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 12pF (at 0 1.397 180) (layer B.SilkS) hide
@@ -2989,7 +2990,7 @@
     (at 74.93 86.36 90)
     (path /59D93494)
     (attr smd)
-    (fp_text reference C22 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference C22 (at 0 -1.27 270) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 90) (layer B.SilkS) hide
@@ -3009,7 +3010,7 @@
     (at 78.74 99.695)
     (path /59D93480)
     (attr smd)
-    (fp_text reference C7 (at 0 0) (layer B.SilkS)
+    (fp_text reference C7 (at 1.905 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "10nF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -3029,7 +3030,7 @@
     (at 73.66 95.885 270)
     (path /59D93491)
     (attr smd)
-    (fp_text reference C16 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C16 (at -1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -3049,7 +3050,7 @@
     (at 96.7105 95.25 180)
     (path /59D9347C)
     (attr smd)
-    (fp_text reference C6 (at 0 0 180) (layer B.SilkS)
+    (fp_text reference C6 (at 0 1.27 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 12pF (at 0 1.397 180) (layer B.SilkS) hide
@@ -3069,7 +3070,7 @@
     (at 78.74 101.346)
     (path /59D93481)
     (attr smd)
-    (fp_text reference C5 (at 0 0) (layer B.SilkS)
+    (fp_text reference C5 (at 1.905 0 90) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -3089,7 +3090,7 @@
     (at 85.725 99.695)
     (path /59D93490)
     (attr smd)
-    (fp_text reference C11 (at 0 0) (layer B.SilkS)
+    (fp_text reference C11 (at 0 1.27) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -3109,7 +3110,7 @@
     (at 68.58 81.915)
     (path /59D934A5)
     (attr smd)
-    (fp_text reference C4 (at 0 0) (layer B.SilkS)
+    (fp_text reference C4 (at 0 1.27) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 25v" (at 0 1.397) (layer B.SilkS) hide
@@ -3129,7 +3130,7 @@
     (at 88.9 78.74 270)
     (path /59D934A4)
     (attr smd)
-    (fp_text reference C3 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C3 (at 0 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 100v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -3149,7 +3150,7 @@
     (at 65.405 81.915 270)
     (path /59D9346B)
     (attr smd)
-    (fp_text reference C2 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference C2 (at 2.54 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "4.7uF 16v" (at 0 1.397 270) (layer B.SilkS) hide
@@ -3165,10 +3166,10 @@
       (net 62 GND))
   )
 
-  (module foot:PAD2 (layer B.Cu) (tedit 59FDA64C) (tstamp 59EB4B7B)
+  (module foot:PAD2 (layer B.Cu) (tedit 5ACE25C2) (tstamp 59EB4B7B)
     (at 106.045 73.025 180)
     (path /59D934A9)
-    (fp_text reference P5 (at 0 0 360) (layer B.SilkS)
+    (fp_text reference P5 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)) (justify mirror))
     )
     (fp_text value CAN (at 0 1.778 180) (layer B.SilkS) hide
@@ -3180,10 +3181,10 @@
       (net 44 "Net-(M6-Pad7)"))
   )
 
-  (module foot:PAD4 (layer B.Cu) (tedit 5A09D5E8) (tstamp 5A09D64F)
+  (module foot:PAD4 (layer B.Cu) (tedit 5ACE25BC) (tstamp 5A09D64F)
     (at 107.95 96.52 270)
     (path /5A0BAD1B)
-    (fp_text reference P1 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference P1 (at 0 0 360) (layer B.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)) (justify mirror))
     )
     (fp_text value BOOT (at 0 1.778 270) (layer B.SilkS) hide
@@ -3199,10 +3200,10 @@
       (net 62 GND))
   )
 
-  (module foot:PAD6 (layer B.Cu) (tedit 5A09D5ED) (tstamp 5A09D659)
+  (module foot:PAD6 (layer B.Cu) (tedit 5ACE25B7) (tstamp 5A09D659)
     (at 101.6 110.49)
     (path /5A0BCFCA)
-    (fp_text reference P3 (at 0 0) (layer B.SilkS)
+    (fp_text reference P3 (at 0 0) (layer B.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)) (justify mirror))
     )
     (fp_text value HALL (at 0 1.778) (layer B.SilkS) hide
@@ -3226,7 +3227,7 @@
     (at 95.885 89.535 270)
     (path /5A42B068)
     (attr smd)
-    (fp_text reference R40 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference R40 (at 1.905 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 270) (layer B.SilkS) hide
@@ -3246,7 +3247,7 @@
     (at 88.265 105.41 90)
     (path /5A4AE210)
     (attr smd)
-    (fp_text reference R41 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R41 (at 1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 90) (layer B.SilkS) hide
@@ -3262,14 +3263,14 @@
       (net 78 EXT_NTC))
   )
 
-  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 59D8A817) (tstamp 5A4BD8E4)
+  (module foot:PG-HSOF-8 (layer F.Cu) (tedit 5ACE29FB) (tstamp 5A4BD8E4)
     (at 101.1 92.71 180)
     (path /59DF7B0E)
     (attr smd)
-    (fp_text reference Q7 (at 0 -0.035 180) (layer F.SilkS)
+    (fp_text reference Q7 (at 0 -0.035 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value IPT007N06N (at 0 -6.985 180) (layer F.Fab)
+    (fp_text value IPT007N06N (at 0 -6.985 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.715 5.08) (end -5.715 -5.08) (layer F.SilkS) (width 0.15))
@@ -3302,10 +3303,10 @@
       (net 62 GND))
   )
 
-  (module foot:PAD6 (layer B.Cu) (tedit 5A4CD428) (tstamp 5A4CD47A)
+  (module foot:PAD6 (layer B.Cu) (tedit 5ACE25B3) (tstamp 5A4CD47A)
     (at 71.12 110.49)
     (path /5A4D4AAB)
-    (fp_text reference P4 (at 0 0) (layer B.SilkS)
+    (fp_text reference P4 (at 0 0) (layer B.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)) (justify mirror))
     )
     (fp_text value SPI (at 0 1.778) (layer B.SilkS) hide
@@ -3325,10 +3326,10 @@
       (net 62 GND))
   )
 
-  (module foot:PAD6 (layer B.Cu) (tedit 5A4CD423) (tstamp 5A4CD484)
+  (module foot:PAD6 (layer B.Cu) (tedit 5ACE25AF) (tstamp 5A4CD484)
     (at 64.77 93.98 270)
     (path /5A4D48A1)
-    (fp_text reference P11 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference P11 (at 0 0 360) (layer B.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)) (justify mirror))
     )
     (fp_text value DEBUG (at 0 1.778 270) (layer B.SilkS) hide
@@ -3352,7 +3353,7 @@
     (at 82.55 81.28 90)
     (path /59D93459)
     (attr smd)
-    (fp_text reference C1 (at 0 0.084999 90) (layer B.SilkS)
+    (fp_text reference C1 (at 0 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value "100nF 100v" (at 0 1.397 90) (layer B.SilkS) hide
@@ -3368,10 +3369,10 @@
       (net 1 +36V))
   )
 
-  (module foot:PAD4 (layer B.Cu) (tedit 5A4FDB00) (tstamp 5A4FDBC4)
+  (module foot:PAD4 (layer B.Cu) (tedit 5ACE27ED) (tstamp 5A4FDBC4)
     (at 95.885 86.36)
     (path /5A502922)
-    (fp_text reference P2 (at 0 0.084999) (layer B.SilkS)
+    (fp_text reference P2 (at 0 0.084999) (layer B.SilkS) hide
       (effects (font (size 0.52324 0.52324) (thickness 0.13081)) (justify mirror))
     )
     (fp_text value PWM (at 0 1.778) (layer B.SilkS) hide
@@ -3391,7 +3392,7 @@
     (at 97.79 89.535 270)
     (path /5A4FF882)
     (attr smd)
-    (fp_text reference R42 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference R42 (at 2.54 0 360) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1K (at 0 1.397 270) (layer B.SilkS) hide
@@ -3407,12 +3408,12 @@
       (net 82 "Net-(M3-Pad59)"))
   )
 
-  (module foot:SM1206 (layer F.Cu) (tedit 5A7F3004) (tstamp 5A7F31D5)
+  (module foot:SM1206 (layer F.Cu) (tedit 5ACF95E0) (tstamp 5A7F31D5)
     (at 71.12 69.215 180)
     (path /5A520D9D)
     (attr smd)
     (fp_text reference C57 (at 0 0 180) (layer F.SilkS)
-      (effects (font (size 0.762 0.762) (thickness 0.127)))
+      (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "2.2uF 100v" (at 0 -2.032 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
@@ -3427,12 +3428,12 @@
       (net 62 GND))
   )
 
-  (module foot:SM1206 (layer F.Cu) (tedit 5A7F302E) (tstamp 5A7F31DB)
+  (module foot:SM1206 (layer F.Cu) (tedit 5ACF95E5) (tstamp 5A7F31DB)
     (at 86.36 69.215)
     (path /5A520D96)
     (attr smd)
     (fp_text reference C59 (at 0 0) (layer F.SilkS)
-      (effects (font (size 0.762 0.762) (thickness 0.127)))
+      (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "2.2uF 100v" (at 0 -2.032) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
@@ -3447,12 +3448,12 @@
       (net 62 GND))
   )
 
-  (module foot:SM1206 (layer F.Cu) (tedit 5A7F3039) (tstamp 5A7F31E1)
+  (module foot:SM1206 (layer F.Cu) (tedit 5ACF95EA) (tstamp 5A7F31E1)
     (at 101.6 69.215 180)
     (path /5A520D90)
     (attr smd)
     (fp_text reference C61 (at 0 0 180) (layer F.SilkS)
-      (effects (font (size 0.762 0.762) (thickness 0.127)))
+      (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_text value "2.2uF 100v" (at 0 -2.032 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)))
@@ -3471,7 +3472,7 @@
     (at 99.695 89.535 90)
     (path /5AC1B511)
     (attr smd)
-    (fp_text reference R43 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R43 (at -1.905 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 90) (layer B.SilkS) hide
@@ -3491,7 +3492,7 @@
     (at 101.6 89.535 90)
     (path /5AC1B8C1)
     (attr smd)
-    (fp_text reference R44 (at 0 0 90) (layer B.SilkS)
+    (fp_text reference R44 (at -2.54 0 180) (layer B.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 1.397 90) (layer B.SilkS) hide
@@ -3507,6 +3508,102 @@
       (net 89 I2C_SDA))
   )
 
+  (gr_text CAN (at 107.315 69.215) (layer B.SilkS) (tstamp 5ACF99CC)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text GND (at 67.056 100.33) (layer B.SilkS) (tstamp 5ACE32E7)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text RX (at 66.675 96.52) (layer B.SilkS) (tstamp 5ACE32E4)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text TX (at 66.675 93.98) (layer B.SilkS) (tstamp 5ACE32E0)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text SWCLK (at 67.31 91.44) (layer B.SilkS) (tstamp 5ACE32DB)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text SWDIO (at 67.31 88.9) (layer B.SilkS) (tstamp 5ACE32D8)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text +3.3V (at 67.31 87.63) (layer B.SilkS) (tstamp 5ACE32CF)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text "PMC\n(rev4)" (at 97.79 102.235) (layer F.SilkS) (tstamp 5ACE328D)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text "term. C" (at 97.79 106.68) (layer F.SilkS) (tstamp 5ACE3288)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text GND (at 93.345 73.025) (layer F.SilkS) (tstamp 5ACE3277)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text +40V (at 78.105 73.025) (layer F.SilkS) (tstamp 5ACE326B)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text +3.3V (at 64.77 109.22) (layer B.SilkS) (tstamp 5ACE288B)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text MOSI (at 67.31 109.22) (layer B.SilkS) (tstamp 5ACE2885)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text MISO (at 69.85 109.22) (layer B.SilkS) (tstamp 5ACE2880)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text SCK (at 72.39 109.22) (layer B.SilkS) (tstamp 5ACE287A)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text NSS (at 74.93 109.22) (layer B.SilkS) (tstamp 5ACE2875)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text GND (at 77.47 109.22) (layer B.SilkS) (tstamp 5ACE286C)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text GND (at 107.95 109.22) (layer B.SilkS) (tstamp 5ACE2861)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text C (at 105.41 109.22) (layer B.SilkS) (tstamp 5ACE285C)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text B (at 102.87 109.22) (layer B.SilkS) (tstamp 5ACE284F)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text A (at 100.33 109.22) (layer B.SilkS) (tstamp 5ACE2841)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text NTC (at 97.79 109.22) (layer B.SilkS) (tstamp 5ACE2835)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text +5V (at 95.25 109.22) (layer B.SilkS) (tstamp 5ACE2829)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text GND (at 107.95 102.235) (layer B.SilkS) (tstamp 5ACE2784)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text BOOT (at 105.41 95.25) (layer B.SilkS) (tstamp 5ACE2761)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text +3.3V (at 105.41 92.71) (layer B.SilkS) (tstamp 5ACE2751)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text +5V (at 92.075 85.09) (layer B.SilkS) (tstamp 5ACE2745)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text SCL (at 94.615 85.09) (layer B.SilkS) (tstamp 5ACE2727)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text SDA (at 97.155 85.09) (layer B.SilkS) (tstamp 5ACE271C)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text GND (at 99.695 85.09) (layer B.SilkS) (tstamp 5ACE2707)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text L (at 104.775 71.755) (layer B.SilkS) (tstamp 5ACE267B)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
+  (gr_text H (at 107.315 71.755) (layer B.SilkS) (tstamp 5ACE2678)
+    (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
+  )
   (gr_text R4 (at 78.74 69.85) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
@@ -4315,6 +4412,8 @@
   (via blind (at 64.77 90.17) (size 0.9) (drill 0.5) (layers In4.Cu B.Cu) (net 59))
   (segment (start 67.1195 90.17) (end 64.77 90.17) (width 0.254) (layer B.Cu) (net 59))
   (segment (start 73.3425 74.295) (end 75.565 74.295) (width 0.381) (layer B.Cu) (net 60))
+  (segment (start 102.87 100.965) (end 102.87 102.87) (width 0.254) (layer F.Cu) (net 62))
+  (segment (start 102.87 102.87) (end 103.505 103.505) (width 0.254) (layer F.Cu) (net 62))
   (segment (start 97.536 97.79) (end 99.695 97.79) (width 0.254) (layer B.Cu) (net 62))
   (via blind (at 99.695 97.79) (size 0.7) (drill 0.3) (layers In4.Cu B.Cu) (net 62))
   (segment (start 97.536 95.25) (end 99.695 95.25) (width 0.254) (layer B.Cu) (net 62))
@@ -4587,8 +4686,6 @@
   (via (at 91.44 104.775) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 62))
   (segment (start 76.2 103.6955) (end 76.2 104.775) (width 0.381) (layer F.Cu) (net 62))
   (via (at 76.2 104.775) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 62))
-  (segment (start 104.5845 103.505) (end 104.5845 100.0125) (width 0.254) (layer F.Cu) (net 62))
-  (segment (start 104.5845 100.0125) (end 104.267 99.695) (width 0.254) (layer F.Cu) (net 62))
   (segment (start 73.335 105.07) (end 73.985 105.07) (width 0.381) (layer F.Cu) (net 62))
   (segment (start 76.2 103.6955) (end 74.2785 103.6955) (width 0.381) (layer F.Cu) (net 62))
   (segment (start 74.2785 103.6955) (end 73.985 103.989) (width 0.381) (layer F.Cu) (net 62))
@@ -4894,6 +4991,10 @@
   (segment (start 99.314 75.946) (end 99.695 75.565) (width 0.508) (layer F.Cu) (net 72))
   (segment (start 101.505 75.495) (end 99.765 75.495) (width 0.508) (layer F.Cu) (net 72))
   (segment (start 99.765 75.495) (end 99.695 75.565) (width 0.508) (layer F.Cu) (net 72))
+  (segment (start 105.156 100.965) (end 105.918 100.965) (width 0.254) (layer F.Cu) (net 73))
+  (segment (start 105.918 100.965) (end 106.2355 101.2825) (width 0.254) (layer F.Cu) (net 73))
+  (segment (start 106.2355 101.2825) (end 106.2355 102.743) (width 0.254) (layer F.Cu) (net 73))
+  (segment (start 106.2355 102.743) (end 106.2355 103.505) (width 0.254) (layer F.Cu) (net 73))
   (segment (start 92.71 100.33) (end 90.805 98.425) (width 0.254) (layer In3.Cu) (net 73))
   (segment (start 90.805 98.425) (end 83.185 98.425) (width 0.254) (layer In3.Cu) (net 73))
   (segment (start 83.185 98.425) (end 81.729999 96.969999) (width 0.254) (layer In3.Cu) (net 73))
@@ -4910,8 +5011,6 @@
   (segment (start 106.2355 103.505) (end 107.315 103.505) (width 0.254) (layer F.Cu) (net 73))
   (via (at 107.315 103.505) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 73))
   (segment (start 106.2355 105.41) (end 106.2355 103.505) (width 0.254) (layer F.Cu) (net 73))
-  (segment (start 106.2355 103.505) (end 106.2355 100.0125) (width 0.254) (layer F.Cu) (net 73))
-  (segment (start 106.2355 100.0125) (end 106.553 99.695) (width 0.254) (layer F.Cu) (net 73))
   (segment (start 68.58 111.125) (end 69.85 111.125) (width 0.254) (layer In2.Cu) (net 74))
   (via blind (at 69.85 111.125) (size 0.9) (drill 0.5) (layers F.Cu In2.Cu) (net 74))
   (segment (start 67.31 111.125) (end 68.58 111.125) (width 0.254) (layer F.Cu) (net 74))
@@ -7039,41 +7138,42 @@
         (xy 104.401464 96.7105) (xy 104.401464 95.9485) (xy 104.374897 95.80731) (xy 104.291454 95.677635) (xy 104.24142 95.643448)
         (xy 104.335855 95.416021) (xy 104.336144 95.085429) (xy 104.209898 94.779891) (xy 104.103194 94.673001) (xy 104.578949 94.673001)
         (xy 104.578856 94.779571) (xy 104.705102 95.085109) (xy 104.938662 95.319077) (xy 105.243979 95.445855) (xy 105.522678 95.446099)
-        (xy 105.68579 95.609211) (xy 105.850597 95.719331) (xy 106.045 95.758) (xy 106.799536 95.758) (xy 106.799536 96.012)
-        (xy 106.826103 96.15319) (xy 106.909546 96.282865) (xy 107.036866 96.369859) (xy 107.188 96.400464) (xy 108.712 96.400464)
-        (xy 108.85319 96.373897) (xy 108.982865 96.290454) (xy 109.069859 96.163134) (xy 109.093 96.048859) (xy 109.093 96.988333)
-        (xy 109.073897 96.88681) (xy 108.990454 96.757135) (xy 108.863134 96.670141) (xy 108.712 96.639536) (xy 107.188 96.639536)
-        (xy 107.04681 96.666103) (xy 106.917135 96.749546) (xy 106.830141 96.876866) (xy 106.799536 97.028) (xy 106.799536 97.4725)
-        (xy 106.282567 97.4725) (xy 106.279897 97.45831) (xy 106.196454 97.328635) (xy 106.069134 97.241641) (xy 105.918 97.211036)
-        (xy 104.902 97.211036) (xy 104.76081 97.237603) (xy 104.631135 97.321046) (xy 104.544141 97.448366) (xy 104.539254 97.4725)
-        (xy 104.377567 97.4725) (xy 104.374897 97.45831) (xy 104.291454 97.328635) (xy 104.164134 97.241641) (xy 104.013 97.211036)
-        (xy 102.997 97.211036) (xy 102.85581 97.237603) (xy 102.726135 97.321046) (xy 102.639141 97.448366) (xy 102.62969 97.495039)
-        (xy 102.58085 97.504754) (xy 102.548596 97.511169) (xy 102.383789 97.62129) (xy 100.960081 99.044999) (xy 90.312001 99.044999)
-        (xy 90.117598 99.083668) (xy 90.111863 99.0875) (xy 89.95279 99.193789) (xy 88.956825 100.189755) (xy 85.668964 100.189755)
-        (xy 85.668964 99.187) (xy 85.642397 99.04581) (xy 85.558954 98.916135) (xy 85.538 98.901818) (xy 85.538 98.301982)
-        (xy 85.543464 98.275) (xy 85.543464 97.578912) (xy 86.748762 98.78421) (xy 86.913569 98.894331) (xy 87.107972 98.933)
-        (xy 91.79 98.933) (xy 91.984403 98.894331) (xy 92.14921 98.78421) (xy 92.224956 98.708464) (xy 92.995 98.708464)
-        (xy 93.13619 98.681897) (xy 93.265865 98.598454) (xy 93.34598 98.481202) (xy 93.416546 98.590865) (xy 93.543866 98.677859)
-        (xy 93.695 98.708464) (xy 94.795 98.708464) (xy 94.93619 98.681897) (xy 95.065865 98.598454) (xy 95.152859 98.471134)
-        (xy 95.155205 98.459551) (xy 95.225546 98.568865) (xy 95.352866 98.655859) (xy 95.504 98.686464) (xy 96.266 98.686464)
-        (xy 96.40719 98.659897) (xy 96.536865 98.576454) (xy 96.623859 98.449134) (xy 96.654464 98.298) (xy 96.654464 97.282)
-        (xy 96.627897 97.14081) (xy 96.544454 97.011135) (xy 96.417134 96.924141) (xy 96.370461 96.91469) (xy 96.354331 96.833597)
-        (xy 96.292824 96.741546) (xy 96.24421 96.668789) (xy 95.73621 96.16079) (xy 95.71477 96.146464) (xy 96.266 96.146464)
-        (xy 96.40719 96.119897) (xy 96.536865 96.036454) (xy 96.623859 95.909134) (xy 96.654464 95.758) (xy 96.654464 94.742)
-        (xy 96.627897 94.60081) (xy 96.544454 94.471135) (xy 96.417134 94.384141) (xy 96.266 94.353536) (xy 95.504 94.353536)
-        (xy 95.36281 94.380103) (xy 95.233135 94.463546) (xy 95.155676 94.576912) (xy 95.073454 94.449135) (xy 94.946134 94.362141)
-        (xy 94.795 94.331536) (xy 94.024956 94.331536) (xy 93.727209 94.033789) (xy 93.562402 93.923668) (xy 93.367999 93.884999)
-        (xy 91.471501 93.884999) (xy 91.277098 93.923668) (xy 91.112291 94.033789) (xy 90.44579 94.70029) (xy 90.335669 94.865097)
-        (xy 90.323746 94.925036) (xy 90.297 94.925036) (xy 90.15581 94.951603) (xy 90.026135 95.035046) (xy 89.939141 95.162366)
-        (xy 89.908536 95.3135) (xy 89.908536 96.0755) (xy 89.935103 96.21669) (xy 90.018546 96.346365) (xy 90.145866 96.433359)
-        (xy 90.297 96.463964) (xy 91.313 96.463964) (xy 91.45419 96.437397) (xy 91.583865 96.353954) (xy 91.623654 96.295721)
-        (xy 91.743866 96.377859) (xy 91.895 96.408464) (xy 92.888116 96.408464) (xy 92.665044 96.631536) (xy 91.895 96.631536)
-        (xy 91.75381 96.658103) (xy 91.624135 96.741546) (xy 91.623182 96.742941) (xy 91.591454 96.693635) (xy 91.464134 96.606641)
-        (xy 91.313 96.576036) (xy 90.297 96.576036) (xy 90.15581 96.602603) (xy 90.026135 96.686046) (xy 89.939141 96.813366)
-        (xy 89.908536 96.9645) (xy 89.908536 97.46299) (xy 89.796464 97.46299) (xy 89.796464 96.774) (xy 89.769897 96.63281)
-        (xy 89.686454 96.503135) (xy 89.559134 96.416141) (xy 89.408 96.385536) (xy 88.848956 96.385536) (xy 87.92921 95.46579)
-        (xy 87.764403 95.355669) (xy 87.650438 95.333) (xy 88.155598 95.333) (xy 88.350001 95.294331) (xy 88.514808 95.18421)
-        (xy 90.207998 93.49102) (xy 105.13698 93.49102) (xy 105.331383 93.452351) (xy 105.49619 93.34223) (xy 106.799536 92.038884)
+        (xy 105.68579 95.609211) (xy 105.813435 95.6945) (xy 105.850597 95.719331) (xy 106.045 95.758) (xy 106.799536 95.758)
+        (xy 106.799536 96.012) (xy 106.826103 96.15319) (xy 106.909546 96.282865) (xy 107.036866 96.369859) (xy 107.188 96.400464)
+        (xy 108.712 96.400464) (xy 108.85319 96.373897) (xy 108.982865 96.290454) (xy 109.069859 96.163134) (xy 109.093 96.048859)
+        (xy 109.093 96.988333) (xy 109.073897 96.88681) (xy 108.990454 96.757135) (xy 108.863134 96.670141) (xy 108.712 96.639536)
+        (xy 107.188 96.639536) (xy 107.04681 96.666103) (xy 106.917135 96.749546) (xy 106.830141 96.876866) (xy 106.799536 97.028)
+        (xy 106.799536 97.4725) (xy 106.282567 97.4725) (xy 106.279897 97.45831) (xy 106.196454 97.328635) (xy 106.069134 97.241641)
+        (xy 105.918 97.211036) (xy 104.902 97.211036) (xy 104.76081 97.237603) (xy 104.631135 97.321046) (xy 104.544141 97.448366)
+        (xy 104.539254 97.4725) (xy 104.377567 97.4725) (xy 104.374897 97.45831) (xy 104.291454 97.328635) (xy 104.164134 97.241641)
+        (xy 104.013 97.211036) (xy 102.997 97.211036) (xy 102.85581 97.237603) (xy 102.726135 97.321046) (xy 102.639141 97.448366)
+        (xy 102.62969 97.495039) (xy 102.58085 97.504754) (xy 102.548596 97.511169) (xy 102.383789 97.62129) (xy 100.960081 99.044999)
+        (xy 90.312001 99.044999) (xy 90.117598 99.083668) (xy 90.111863 99.0875) (xy 89.95279 99.193789) (xy 88.956825 100.189755)
+        (xy 85.668964 100.189755) (xy 85.668964 99.187) (xy 85.642397 99.04581) (xy 85.558954 98.916135) (xy 85.538 98.901818)
+        (xy 85.538 98.301982) (xy 85.543464 98.275) (xy 85.543464 97.578912) (xy 86.748762 98.78421) (xy 86.913569 98.894331)
+        (xy 87.107972 98.933) (xy 91.79 98.933) (xy 91.984403 98.894331) (xy 92.14921 98.78421) (xy 92.224956 98.708464)
+        (xy 92.995 98.708464) (xy 93.13619 98.681897) (xy 93.265865 98.598454) (xy 93.34598 98.481202) (xy 93.416546 98.590865)
+        (xy 93.543866 98.677859) (xy 93.695 98.708464) (xy 94.795 98.708464) (xy 94.93619 98.681897) (xy 95.065865 98.598454)
+        (xy 95.152859 98.471134) (xy 95.155205 98.459551) (xy 95.225546 98.568865) (xy 95.352866 98.655859) (xy 95.504 98.686464)
+        (xy 96.266 98.686464) (xy 96.40719 98.659897) (xy 96.536865 98.576454) (xy 96.623859 98.449134) (xy 96.654464 98.298)
+        (xy 96.654464 97.282) (xy 96.627897 97.14081) (xy 96.544454 97.011135) (xy 96.417134 96.924141) (xy 96.370461 96.91469)
+        (xy 96.354331 96.833597) (xy 96.292824 96.741546) (xy 96.24421 96.668789) (xy 95.73621 96.16079) (xy 95.71477 96.146464)
+        (xy 96.266 96.146464) (xy 96.40719 96.119897) (xy 96.536865 96.036454) (xy 96.623859 95.909134) (xy 96.654464 95.758)
+        (xy 96.654464 94.742) (xy 96.627897 94.60081) (xy 96.544454 94.471135) (xy 96.417134 94.384141) (xy 96.266 94.353536)
+        (xy 95.504 94.353536) (xy 95.36281 94.380103) (xy 95.233135 94.463546) (xy 95.155676 94.576912) (xy 95.073454 94.449135)
+        (xy 94.946134 94.362141) (xy 94.795 94.331536) (xy 94.024956 94.331536) (xy 93.727209 94.033789) (xy 93.562402 93.923668)
+        (xy 93.367999 93.884999) (xy 91.471501 93.884999) (xy 91.277098 93.923668) (xy 91.112291 94.033789) (xy 90.44579 94.70029)
+        (xy 90.335669 94.865097) (xy 90.323746 94.925036) (xy 90.297 94.925036) (xy 90.15581 94.951603) (xy 90.026135 95.035046)
+        (xy 89.939141 95.162366) (xy 89.908536 95.3135) (xy 89.908536 96.0755) (xy 89.935103 96.21669) (xy 90.018546 96.346365)
+        (xy 90.145866 96.433359) (xy 90.297 96.463964) (xy 91.313 96.463964) (xy 91.45419 96.437397) (xy 91.583865 96.353954)
+        (xy 91.623654 96.295721) (xy 91.743866 96.377859) (xy 91.895 96.408464) (xy 92.888116 96.408464) (xy 92.665044 96.631536)
+        (xy 91.895 96.631536) (xy 91.75381 96.658103) (xy 91.624135 96.741546) (xy 91.623182 96.742941) (xy 91.591454 96.693635)
+        (xy 91.464134 96.606641) (xy 91.313 96.576036) (xy 90.297 96.576036) (xy 90.15581 96.602603) (xy 90.026135 96.686046)
+        (xy 89.939141 96.813366) (xy 89.908536 96.9645) (xy 89.908536 97.46299) (xy 89.796464 97.46299) (xy 89.796464 96.774)
+        (xy 89.769897 96.63281) (xy 89.686454 96.503135) (xy 89.559134 96.416141) (xy 89.408 96.385536) (xy 88.848956 96.385536)
+        (xy 87.92921 95.46579) (xy 87.764403 95.355669) (xy 87.650438 95.333) (xy 88.155598 95.333) (xy 88.350001 95.294331)
+        (xy 88.514808 95.18421) (xy 90.207998 93.49102) (xy 105.13698 93.49102) (xy 105.331383 93.452351) (xy 105.49619 93.34223)
+        (xy 106.799536 92.038884)
       )
     )
     (filled_polygon
