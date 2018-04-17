@@ -7,7 +7,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "Phobia Motor Controller"
-Date "2018-04-12"
+Date "2018-04-17"
 Rev "4"
 Comp "Roman Belov"
 Comment1 ""
