@@ -1,4 +1,4 @@
-update=Tue 01 May 2018 09:09:24 AM MSK
+update=Sat 19 Jan 2019 11:12:25 PM MSK
 version=1
 last_client=kicad
 [cvpcb]
@@ -19,8 +19,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +38,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
