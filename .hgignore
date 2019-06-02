@@ -7,4 +7,5 @@ syntax: glob
 *.dcm
 *.xml
 *.net
+*.zip
 gerber
