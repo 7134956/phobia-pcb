@@ -1,4 +1,4 @@
-update=Sat 27 Apr 2019 04:30:19 PM MSK
+update=Sat 20 Jul 2019 03:22:38 PM MSK
 version=1
 last_client=kicad
 [cvpcb]
@@ -9,16 +9,6 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=/home/amaora/devel/pcb/lib/fake
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +30,13 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
